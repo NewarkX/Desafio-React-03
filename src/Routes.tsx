@@ -1,7 +1,8 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import NavBar from "./core/assets/styles/components/NavBar";
-import Home from "./core/assets/styles/pages/Home";
-import Search from "./core/assets/styles/pages/Home/Search";
+import Home from "./core/pages/Home";
+import Search from "./core/pages/Search";
+
 
 
 const Routes = () => (
