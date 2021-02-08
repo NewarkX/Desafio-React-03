@@ -1,9 +1,10 @@
 import React from 'react';
+import BlueContainer from '../../assets/styles/components/BlueContainer';
 
 // import { Container } from './styles';
 
 const Search = () => (
-    <h1>Search</h1>
+    <BlueContainer />
 );
 
 export default Search;
