@@ -4,6 +4,7 @@ import './styles.scss';
 
 type Props = {
     text: string;
+    onClick?:() =>void;
 }
 
 const Button = ({text}: Props) => (
