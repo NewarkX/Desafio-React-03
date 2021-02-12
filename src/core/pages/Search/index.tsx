@@ -5,6 +5,7 @@ import { User } from 'core/types/User';
 import Button from 'core/assets/styles/components/Button';
 import ImageLoader from 'core/assets/styles/components/Loaders/imgLoader';
 import InfoLoader from 'core/assets/styles/components/Loaders/infoLoader';
+import DayJS from 'react-dayjs';
 // import { Container } from './styles';
 
 const Search = () => {
@@ -100,8 +101,7 @@ const Search = () => {
                                     </div>
 
                                     <div className="info-member-details">
-                                        <span>Membro desde: {userData?.created_at}</span>
-
+                                       <span>Membro desde: <DayJS format="DD/MM/YYYY">{userData?.created_at}</DayJS> </span> 
                                     </div>
                                 </div>
                             </div>
